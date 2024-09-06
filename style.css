@@ -1,5 +1,5 @@
 body {
-  font-family: Overpas;
+  font-family: Overpass;
   margin: 0;
 }
 
@@ -13,18 +13,13 @@ p {
   opacity: .7;
 }
 
-div {
-  display: block;
-  unicode-bidi: isolate;
-}
-
 .container {
   width: 800px;
   margin: auto;
 }
 
 .banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/background.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/background.jpg');
   background-size: cover;
   background-position: center;
   padding: 150px 0;
@@ -53,6 +48,11 @@ div {
 }
 
 .button-blue:hover {
+  background-color: #0D1EC6;
+  color: white;
+}
+
+.card-white {
   background: white;
   box-shadow: 0 0 16px rgba(0,0,0,0.1);
   border-radius: 4px;
