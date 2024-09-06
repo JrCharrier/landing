@@ -98,15 +98,11 @@ p {
     width: auto;
   }
 }
-  
-/* Container media queries */
 @media (min-width: 500px) {
   .container {
     width: 400px;
   }
 }
-
-
 @media (min-width: 800px) {
   .container {
     width: 600px;
